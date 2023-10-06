@@ -45,14 +45,14 @@ fun TampilText(message: String, from:String, modifier:Modifier=Modifier){
 Column(verticalArrangement = Arrangement.Center,
     modifier = modifier) {
     Text(
-        color = Color.White,
+        color = Color.Yellow,
         text= message,
         fontSize = 80.sp,
         lineHeight = 110.sp,
         textAlign = TextAlign.Center,
     )
     Text(
-        color = Color.Yellow,
+        color = Color.White,
         text= from,
         fontSize = 60.sp,
         modifier = Modifier
